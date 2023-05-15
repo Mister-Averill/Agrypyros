@@ -1,7 +1,6 @@
 package fr.mister_averill.agrypyrosmod.item;
 
 import fr.mister_averill.agrypyrosmod.AgrypyrosMod;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,7 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, AgrypyrosMod.MOD_ID);
 
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
