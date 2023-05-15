@@ -1,6 +1,7 @@
 package fr.mister_averill.agrypyrosmod;
 
 import com.mojang.logging.LogUtils;
+import fr.mister_averill.agrypyrosmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,6 +23,8 @@ public class AgrypyrosMod
     public AgrypyrosMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
