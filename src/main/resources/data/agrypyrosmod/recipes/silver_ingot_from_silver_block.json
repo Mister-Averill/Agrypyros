@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silver_ingot",
+  "ingredients": [
+    {
+      "item": "agrypyrosmod:silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "agrypyrosmod:silver_ingot"
+  }
+}
