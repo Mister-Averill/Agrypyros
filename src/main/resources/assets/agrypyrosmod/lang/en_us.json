@@ -1,4 +1,9 @@
 {
   "item.agrypyrosmod.raw_silver": "Raw Silver",
-  "item.agrypyrosmod.silver_ingot": "Silver Ingot"
+  "item.agrypyrosmod.silver_ingot": "Silver Ingot",
+
+  "block.agrypyrosmod.silver_ore": "Silver Ore",
+  "block.agrypyrosmod.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "itemGroup.agrypyrosmodtab": "Agrypyros"
 }

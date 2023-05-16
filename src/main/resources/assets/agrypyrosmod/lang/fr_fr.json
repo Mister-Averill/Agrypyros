@@ -1,4 +1,9 @@
 {
   "item.agrypyrosmod.raw_silver": "Argent Brut",
-  "item.agrypyrosmod.silver_ingot": "Lingot d'Argent"
+  "item.agrypyrosmod.silver_ingot": "Lingot d'Argent",
+
+  "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
+  "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
+
+  "itemGroup.agrypyrosmodtab": "Agrypyros"
 }
