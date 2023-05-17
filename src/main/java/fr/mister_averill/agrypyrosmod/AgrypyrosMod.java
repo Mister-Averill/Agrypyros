@@ -3,6 +3,8 @@ package fr.mister_averill.agrypyrosmod;
 import com.mojang.logging.LogUtils;
 import fr.mister_averill.agrypyrosmod.block.ModBlocks;
 import fr.mister_averill.agrypyrosmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

@@ -1,12 +1,14 @@
 package fr.mister_averill.agrypyrosmod.block;
 
 import fr.mister_averill.agrypyrosmod.AgrypyrosMod;
+import fr.mister_averill.agrypyrosmod.block.crops.BarleyCropBlock;
 import fr.mister_averill.agrypyrosmod.item.ModCreativeModeTab;
 import fr.mister_averill.agrypyrosmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -32,6 +34,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
                     .strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+
+    public static final RegistryObject<Block> BARLEY_CROP = BLOCKS.register("barley",
+            () -> new BarleyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                     CreativeModeTab tab){

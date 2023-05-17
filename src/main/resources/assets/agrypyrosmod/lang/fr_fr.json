@@ -1,10 +1,13 @@
 {
   "item.agrypyrosmod.raw_silver": "Argent Brut",
   "item.agrypyrosmod.silver_ingot": "Lingot d'Argent",
+  "item.agrypyrosmod.barley_seeds": "Graines d'Orge",
+  "item.agrypyrosmod.barley": "Orge",
 
   "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
   "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
   "block.agrypyrosmod.silver_block": "Bloc d'Argent",
+  "block.agrypyrosmod.barley_crop": "Plant d'Orge",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }
