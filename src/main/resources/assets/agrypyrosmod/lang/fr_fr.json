@@ -3,11 +3,14 @@
   "item.agrypyrosmod.silver_ingot": "Lingot d'Argent",
   "item.agrypyrosmod.barley_seeds": "Graines d'Orge",
   "item.agrypyrosmod.barley": "Orge",
+  "item.agrypyrosmod.grape_seeds": "Pépins",
+  "item.agrypyrosmod.grape": "Raisin",
 
   "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
   "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
   "block.agrypyrosmod.silver_block": "Bloc d'Argent",
   "block.agrypyrosmod.barley_crop": "Plant d'Orge",
+  "block.agrypyrosmod.grape_crop": "Vigne",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }

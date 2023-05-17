@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "cutout",
+  "textures": {
+    "crop": "agrypyrosmod:block/grape_stage7"
+  }
+}

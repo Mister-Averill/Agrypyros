@@ -2,6 +2,7 @@ package fr.mister_averill.agrypyrosmod.block;
 
 import fr.mister_averill.agrypyrosmod.AgrypyrosMod;
 import fr.mister_averill.agrypyrosmod.block.crops.BarleyCropBlock;
+import fr.mister_averill.agrypyrosmod.block.crops.GrapeCropBlock;
 import fr.mister_averill.agrypyrosmod.item.ModCreativeModeTab;
 import fr.mister_averill.agrypyrosmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -37,6 +38,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BARLEY_CROP = BLOCKS.register("barley",
             () -> new BarleyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> GRAPE_CROP = BLOCKS.register("grape",
+            () -> new GrapeCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                     CreativeModeTab tab){

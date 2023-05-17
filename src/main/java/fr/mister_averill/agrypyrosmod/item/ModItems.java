@@ -2,6 +2,7 @@ package fr.mister_averill.agrypyrosmod.item;
 
 import fr.mister_averill.agrypyrosmod.AgrypyrosMod;
 import fr.mister_averill.agrypyrosmod.block.ModBlocks;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,11 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
     public static final RegistryObject<Item> BARLEY = ITEMS.register("barley",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> GRAPE_SEEDS = ITEMS.register("grape_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.GRAPE_CROP.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2F).build())));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
