@@ -7,6 +7,21 @@
   "item.agrypyrosmod.grape": "Raisin",
   "item.agrypyrosmod.raw_tin": "Étain Brut",
   "item.agrypyrosmod.tin_ingot": "Lingot d'Étain",
+  "item.agrypyrosmod.raw_bronze": "Bronze Brut",
+  "item.agrypyrosmod.bronze_ingot": "Lingot de Bronze",
+  "item.agrypyrosmod.chalk": "Chalque",
+  "item.agrypyrosmod.obol": "Obole",
+  "item.agrypyrosmod.drachma": "Drachme",
+  "item.agrypyrosmod.copper_sword": "Épée en Cuivre",
+  "item.agrypyrosmod.copper_axe": "Hache en Cuivre",
+  "item.agrypyrosmod.copper_pickaxe": "Pioche en Cuivre",
+  "item.agrypyrosmod.copper_shovel": "Pelle en Cuivre",
+  "item.agrypyrosmod.copper_hoe": "Houe en Cuivre",
+  "item.agrypyrosmod.bronze_sword": "Épée en Bronze",
+  "item.agrypyrosmod.bronze_axe": "Hache en Bronze",
+  "item.agrypyrosmod.bronze_pickaxe": "Pioche en Bronze",
+  "item.agrypyrosmod.bronze_shovel": "Pelle en Bronze",
+  "item.agrypyrosmod.bronze_hoe": "Houe en Bronze",
 
   "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
   "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
@@ -16,6 +31,7 @@
   "block.agrypyrosmod.tin_ore": "Minerai d'Étain",
   "block.agrypyrosmod.deepslate_tin_ore": "Minerai d'Étain des Abîmes",
   "block.agrypyrosmod.tin_block": "Bloc d'Étain",
+  "block.agrypyrosmod.bronze_block": "Bloc de Bronze",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }

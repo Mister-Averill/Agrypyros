@@ -7,6 +7,21 @@
   "item.agrypyrosmod.grape": "Grape",
   "item.agrypyrosmod.raw_tin": "Raw Tin",
   "item.agrypyrosmod.tin_ingot": "Tin Ingot",
+  "item.agrypyrosmod.raw_bronze": "Raw Bronze",
+  "item.agrypyrosmod.bronze_ingot": "Bronze Ingot",
+  "item.agrypyrosmod.chalk": "Chalk",
+  "item.agrypyrosmod.obol": "Obol",
+  "item.agrypyrosmod.drachma": "Drachma",
+  "item.agrypyrosmod.copper_sword": "Copper Sword",
+  "item.agrypyrosmod.copper_axe": "Copper Axe",
+  "item.agrypyrosmod.copper_pickaxe": "Copper Pickaxe",
+  "item.agrypyrosmod.copper_shovel": "Copper Shovel",
+  "item.agrypyrosmod.copper_hoe": "Copper Hoe",
+  "item.agrypyrosmod.bronze_sword": "Bronze Sword",
+  "item.agrypyrosmod.bronze_axe": "Bronze Axe",
+  "item.agrypyrosmod.bronze_pickaxe": "Bronze Pickaxe",
+  "item.agrypyrosmod.bronze_shovel": "Bronze Shovel",
+  "item.agrypyrosmod.bronze_hoe": "Bronze Hoe",
 
   "block.agrypyrosmod.silver_ore": "Silver Ore",
   "block.agrypyrosmod.deepslate_silver_ore": "Deepslate Silver Ore",
@@ -16,6 +31,7 @@
   "block.agrypyrosmod.tin_ore": "Tin Ore",
   "block.agrypyrosmod.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.agrypyrosmod.tin_block": "Tin Block",
+  "block.agrypyrosmod.bronze_block": "Bronze Block",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }
