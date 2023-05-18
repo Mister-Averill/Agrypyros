@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "zinc_ingot",
+  "ingredients": [
+    {
+      "item": "agrypyrosmod:zinc_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "agrypyrosmod:zinc_ingot"
+  }
+}
