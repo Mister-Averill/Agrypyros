@@ -6,6 +6,10 @@
     "agrypyrosmod:silver_block",
     "agrypyrosmod:tin_ore",
     "agrypyrosmod:deepslate_tin_ore",
-    "agrypyrosmod:tin_block"
+    "agrypyrosmod:tin_block",
+    "agrypyrosmod:zinc_ore",
+    "agrypyrosmod:deepslate_zinc_ore",
+    "agrypyrosmod:zinc_block",
+    "agrypyrosmod:brass_block"
   ]
 }

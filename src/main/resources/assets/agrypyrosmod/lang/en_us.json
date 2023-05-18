@@ -22,6 +22,18 @@
   "item.agrypyrosmod.bronze_pickaxe": "Bronze Pickaxe",
   "item.agrypyrosmod.bronze_shovel": "Bronze Shovel",
   "item.agrypyrosmod.bronze_hoe": "Bronze Hoe",
+  "item.agrypyrosmod.raw_zinc": "Raw Zinc",
+  "item.agrypyrosmod.zinc_ingot": "Zinc Ingot",
+  "item.agrypyrosmod.raw_brass": "Raw Brass",
+  "item.agrypyrosmod.brass_ingot": "Brass Ingot",
+  "item.agrypyrosmod.brass_helmet": "Brass Helmet",
+  "item.agrypyrosmod.brass_chestplate": "Brass Chestplate",
+  "item.agrypyrosmod.brass_leggings": "Brass Leggings",
+  "item.agrypyrosmod.brass_boots": "Brass Boots",
+  "item.agrypyrosmod.bronze_helmet": "Bronze Helmet",
+  "item.agrypyrosmod.bronze_chestplate": "Bronze Chestplate",
+  "item.agrypyrosmod.bronze_leggings": "Bronze Leggings",
+  "item.agrypyrosmod.bronze_boots": "Bronze Boots",
 
   "block.agrypyrosmod.silver_ore": "Silver Ore",
   "block.agrypyrosmod.deepslate_silver_ore": "Deepslate Silver Ore",
@@ -32,6 +44,14 @@
   "block.agrypyrosmod.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.agrypyrosmod.tin_block": "Tin Block",
   "block.agrypyrosmod.bronze_block": "Bronze Block",
+  "block.agrypyrosmod.zinc_ore": "Zinc Ore",
+  "block.agrypyrosmod.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.agrypyrosmod.zinc_block": "Zinc Block",
+  "block.agrypyrosmod.brass_block": "Brass Block",
+  "block.agrypyrosmod.limestone": "Limestone",
+  "block.agrypyrosmod.limestone_bricks": "Limestone Bricks",
+  "block.agrypyrosmod.chiseled_limestone": "Chiseled Limestone",
+  "block.agrypyrosmod.mossy_limestone_bricks": "Mossy Limestone Bricks",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }

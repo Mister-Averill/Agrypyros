@@ -22,6 +22,18 @@
   "item.agrypyrosmod.bronze_pickaxe": "Pioche en Bronze",
   "item.agrypyrosmod.bronze_shovel": "Pelle en Bronze",
   "item.agrypyrosmod.bronze_hoe": "Houe en Bronze",
+  "item.agrypyrosmod.raw_zinc": "Zinc Brut",
+  "item.agrypyrosmod.zinc_ingot": "Lingot de Zinc",
+  "item.agrypyrosmod.raw_brass": "Laiton Brut",
+  "item.agrypyrosmod.brass_ingot": "Lingot de Laiton",
+  "item.agrypyrosmod.brass_helmet": "Casque en Laiton",
+  "item.agrypyrosmod.brass_chestplate": "Plastron en Laiton",
+  "item.agrypyrosmod.brass_leggings": "Jambières en Laiton",
+  "item.agrypyrosmod.brass_boots": "Bottes en Laiton",
+  "item.agrypyrosmod.bronze_helmet": "Casque en Bronze",
+  "item.agrypyrosmod.bronze_chestplate": "Plastron en Bronze",
+  "item.agrypyrosmod.bronze_leggings": "Jambières en Bronze",
+  "item.agrypyrosmod.bronze_boots": "Bottes en Bronze",
 
   "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
   "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
@@ -32,6 +44,14 @@
   "block.agrypyrosmod.deepslate_tin_ore": "Minerai d'Étain des Abîmes",
   "block.agrypyrosmod.tin_block": "Bloc d'Étain",
   "block.agrypyrosmod.bronze_block": "Bloc de Bronze",
+  "block.agrypyrosmod.zinc_ore": "Minerai de Zinc",
+  "block.agrypyrosmod.deepslate_zinc_ore": "Minerai de Zinc des Abîmes",
+  "block.agrypyrosmod.zinc_block": "Bloc de Zinc",
+  "block.agrypyrosmod.brass_block": "Bloc de Laiton",
+  "block.agrypyrosmod.limestone": "Calcaire",
+  "block.agrypyrosmod.limestone_bricks": "Briques de Calcaire",
+  "block.agrypyrosmod.chiseled_limestone": "Calcaire Sculpté",
+  "block.agrypyrosmod.mossy_limestone_bricks": "Briques de Calcaire Moussues",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }
