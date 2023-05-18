@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "agrypyrosmod:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "agrypyrosmod:brass_boots"
+  }
+}
