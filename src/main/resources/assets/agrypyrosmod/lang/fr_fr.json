@@ -5,12 +5,17 @@
   "item.agrypyrosmod.barley": "Orge",
   "item.agrypyrosmod.grape_seeds": "Pépins",
   "item.agrypyrosmod.grape": "Raisin",
+  "item.agrypyrosmod.raw_tin": "Étain Brut",
+  "item.agrypyrosmod.tin_ingot": "Lingot d'Étain",
 
   "block.agrypyrosmod.silver_ore": "Minerai d'Argent",
   "block.agrypyrosmod.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
   "block.agrypyrosmod.silver_block": "Bloc d'Argent",
   "block.agrypyrosmod.barley_crop": "Plant d'Orge",
   "block.agrypyrosmod.grape_crop": "Vigne",
+  "block.agrypyrosmod.tin_ore": "Minerai d'Étain",
+  "block.agrypyrosmod.deepslate_tin_ore": "Minerai d'Étain des Abîmes",
+  "block.agrypyrosmod.tin_block": "Bloc d'Étain",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }

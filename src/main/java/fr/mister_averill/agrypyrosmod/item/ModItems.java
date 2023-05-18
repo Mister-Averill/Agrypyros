@@ -18,6 +18,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
 
     public static final RegistryObject<Item> BARLEY_SEEDS = ITEMS.register("barley_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BARLEY_CROP.get(),

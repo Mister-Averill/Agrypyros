@@ -5,6 +5,7 @@ import fr.mister_averill.agrypyrosmod.block.crops.BarleyCropBlock;
 import fr.mister_averill.agrypyrosmod.block.crops.GrapeCropBlock;
 import fr.mister_averill.agrypyrosmod.item.ModCreativeModeTab;
 import fr.mister_averill.agrypyrosmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -28,13 +29,22 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
                     .strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+    public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
+                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
 
     public static final RegistryObject<Block> BARLEY_CROP = BLOCKS.register("barley",
             () -> new BarleyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));

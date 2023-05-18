@@ -3,6 +3,9 @@
   "values": [
     "agrypyrosmod:silver_ore",
     "agrypyrosmod:deepslate_silver_ore",
-    "agrypyrosmod:silver_block"
+    "agrypyrosmod:silver_block",
+    "agrypyrosmod:tin_ore",
+    "agrypyrosmod:deepslate_tin_ore",
+    "agrypyrosmod:tin_block"
   ]
 }

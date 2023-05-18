@@ -5,12 +5,17 @@
   "item.agrypyrosmod.barley": "Barley",
   "item.agrypyrosmod.grape_seeds": "Grape Seeds",
   "item.agrypyrosmod.grape": "Grape",
+  "item.agrypyrosmod.raw_tin": "Raw Tin",
+  "item.agrypyrosmod.tin_ingot": "Tin Ingot",
 
   "block.agrypyrosmod.silver_ore": "Silver Ore",
   "block.agrypyrosmod.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.agrypyrosmod.silver_block": "Silver Block",
   "block.agrypyrosmod.barley_crop": "Barley Crop",
   "block.agrypyrosmod.grape_crop": "Grape Crop",
+  "block.agrypyrosmod.tin_ore": "Tin Ore",
+  "block.agrypyrosmod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.agrypyrosmod.tin_block": "Tin Block",
 
   "itemGroup.agrypyrosmodtab": "Agrypyros"
 }
