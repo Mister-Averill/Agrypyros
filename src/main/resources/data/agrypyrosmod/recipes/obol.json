@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "agrypyrosmod:silver_ingot"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "agrypyrosmod:obol"
+  }
+}
