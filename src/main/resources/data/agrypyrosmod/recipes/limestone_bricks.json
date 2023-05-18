@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "agrypyrosmod:limestone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "agrypyrosmod:limestone_bricks"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "agrypyrosmod:limestone_bricks"
+    },
+    {
+      "item": "minecraft:vines"
+    }
+  ],
+  "result": {
+    "item": "agrypyrosmod:mossy_limestone_bricks"
+  }
+}
