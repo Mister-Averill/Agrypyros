@@ -3,8 +3,7 @@ package fr.mister_averill.agrypyrosmod.item;
 import fr.mister_averill.agrypyrosmod.AgrypyrosMod;
 import fr.mister_averill.agrypyrosmod.block.ModBlocks;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,7 +21,16 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
-
+    public static final RegistryObject<Item> RAW_BRONZE = ITEMS.register("raw_bronze",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> CHALK = ITEMS.register("chalk",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> OBOL = ITEMS.register("obol",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> DRACHMA = ITEMS.register("drachma",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
     public static final RegistryObject<Item> BARLEY_SEEDS = ITEMS.register("barley_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BARLEY_CROP.get(),
                     new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
@@ -33,6 +41,26 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
     public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2F).build())));
+    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
+            () -> new SwordItem(ModTiers.COPPER, 4, -2.4F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe",
+            () -> new SwordItem(ModTiers.COPPER, 7, -3.1F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
+            () -> new PickaxeItem(ModTiers.COPPER, 2, -2.8F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel",
+            () -> new ShovelItem(ModTiers.COPPER, 2, -3F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
+            () -> new HoeItem(ModTiers.COPPER, -1, -1.5F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
+            () -> new SwordItem(ModTiers.BRONZE, 4, -2.4F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe",
+            () -> new AxeItem(ModTiers.BRONZE, 6, -3F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe",
+            () -> new PickaxeItem(ModTiers.BRONZE, 2, -2.8F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel",
+            () -> new ShovelItem(ModTiers.BRONZE, 2, -3F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
+    public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe",
+            () -> new HoeItem(ModTiers.BRONZE, -2, -0.5F, new Item.Properties().tab(ModCreativeModeTab.AGRYPYROS_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
