@@ -29,65 +29,63 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)));
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
-                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 4)));
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
-                    .strength(3.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE)
-                    .strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> ZINC_ORE = registerBlock("zinc_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 2)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops(), UniformInt.of(1, 2)));
     public static final RegistryObject<Block> DEEPSLATE_ZINC_ORE = registerBlock("deepslate_zinc_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 2)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(1, 2)));
     public static final RegistryObject<Block> ZINC_BLOCK = registerBlock("zinc_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
-                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> BRASS_BLOCK = registerBlock("brass_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
-                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(4.0F, 5.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> LIMESTONE = registerBlock("limestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> LIMESTONE_BRICKS = registerBlock("limestone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> CHISELED_LIMESTONE = registerBlock("chiseled_limestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICKS = registerBlock("mossy_limestone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.AGRYPYROS_TAB);
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> BARLEY_CROP = BLOCKS.register("barley",
             () -> new BarleyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
     public static final RegistryObject<Block> GRAPE_CROP = BLOCKS.register("grape",
             () -> new GrapeCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
-                                                                    CreativeModeTab tab){
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
-        registerBlockItem(name, toReturn, tab);
+        registerBlockItem(name, toReturn);
         return toReturn;
     }
 
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
-                                                                            CreativeModeTab tab){
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus){
