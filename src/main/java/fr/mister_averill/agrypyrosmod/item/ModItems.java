@@ -86,6 +86,10 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.BRONZE, EquipmentSlot.LEGS, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots",
             () -> new ArmorItem(ModArmorMaterials.BRONZE, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> RAW_BOAR = ITEMS.register("raw_boar",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.4F).build())));
+    public static final RegistryObject<Item> COOKED_BOAR = ITEMS.register("cooked_boar",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.9F).build())));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
