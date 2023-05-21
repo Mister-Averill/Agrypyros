@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-
+    "agrypyrosmod:oak_wood_wall",
+    "agrypyrosmod:spruce_wood_wall",
+    "agrypyrosmod:birch_wood_wall",
+    "agrypyrosmod:jungle_wood_wall",
+    "agrypyrosmod:acacia_wood_wall",
+    "agrypyrosmod:dark_oak_wood_wall",
+    "agrypyrosmod:mangrove_wood_wall"
   ]
 }
