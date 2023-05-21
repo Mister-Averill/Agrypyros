@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "agrypyrosmod:block/limestone_bricks_slab"
+    },
+    "type=double": {
+      "model": "agrypyrosmod:block/limestone_bricks"
+    },
+    "type=top": {
+      "model": "agrypyrosmod:block/limestone_bricks_slab_top"
+    }
+  }
+}
