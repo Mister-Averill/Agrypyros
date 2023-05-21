@@ -56,6 +56,33 @@ public class AgrypyrosMod
             event.accept(ModBlocks.BRASS_BLOCK);
             event.accept(ModBlocks.BRONZE_BLOCK);
             event.accept(ModBlocks.LIMESTONE_BRICKS);
+            event.accept(ModBlocks.LIMESTONE_SLAB);
+            event.accept(ModBlocks.LIMESTONE_STAIRS);
+            event.accept(ModBlocks.LIMESTONE_BRICKS_SLAB);
+            event.accept(ModBlocks.LIMESTONE_BRICKS_STAIRS);
+            event.accept(ModBlocks.CLAY_TILES);
+            event.accept(ModBlocks.HAY_SLAB);
+            event.accept(ModBlocks.HAY_STAIRS);
+        }
+
+        if(event.getTab() == CreativeModeTabs.COLORED_BLOCKS){
+            event.accept(ModBlocks.CLAY_TILES);
+            event.accept(ModBlocks.WHITE_CLAY_TILES);
+            event.accept(ModBlocks.ORANGE_CLAY_TILES);
+            event.accept(ModBlocks.MAGENTA_CLAY_TILES);
+            event.accept(ModBlocks.LIGHT_BLUE_CLAY_TILES);
+            event.accept(ModBlocks.YELLOW_CLAY_TILES);
+            event.accept(ModBlocks.LIME_CLAY_TILES);
+            event.accept(ModBlocks.PINK_CLAY_TILES);
+            event.accept(ModBlocks.GRAY_CLAY_TILES);
+            event.accept(ModBlocks.LIGHT_GRAY_CLAY_TILES);
+            event.accept(ModBlocks.CYAN_CLAY_TILES);
+            event.accept(ModBlocks.PURPLE_CLAY_TILES);
+            event.accept(ModBlocks.BLUE_CLAY_TILES);
+            event.accept(ModBlocks.BROWN_CLAY_TILES);
+            event.accept(ModBlocks.GREEN_CLAY_TILES);
+            event.accept(ModBlocks.RED_CLAY_TILES);
+            event.accept(ModBlocks.BLACK_CLAY_TILES);
         }
 
         if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
@@ -66,6 +93,13 @@ public class AgrypyrosMod
             event.accept(ModBlocks.ZINC_ORE);
             event.accept(ModBlocks.DEEPSLATE_ZINC_ORE);
             event.accept(ModBlocks.LIMESTONE);
+            event.accept(ModBlocks.OAK_WOOD_WALL);
+            event.accept(ModBlocks.SPRUCE_WOOD_WALL);
+            event.accept(ModBlocks.BIRCH_WOOD_WALL);
+            event.accept(ModBlocks.JUNGLE_WOOD_WALL);
+            event.accept(ModBlocks.ACACIA_WOOD_WALL);
+            event.accept(ModBlocks.DARK_OAK_WOOD_WALL);
+            event.accept(ModBlocks.MANGROVE_WOOD_WALL);
             event.accept(ModItems.BARLEY_SEEDS);
             event.accept(ModItems.BARLEY);
             event.accept(ModItems.GRAPE_SEEDS);
@@ -96,6 +130,11 @@ public class AgrypyrosMod
             event.accept(ModItems.BRONZE_BOOTS);
         }
 
+        if(event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.RAW_BOAR);
+            event.accept(ModItems.COOKED_BOAR);
+        }
+
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RAW_SILVER);
             event.accept(ModItems.SILVER_INGOT);
@@ -123,9 +162,39 @@ public class AgrypyrosMod
             event.accept(ModBlocks.ZINC_ORE);
             event.accept(ModBlocks.DEEPSLATE_ZINC_ORE);
             event.accept(ModBlocks.LIMESTONE);
+            event.accept(ModBlocks.LIMESTONE_SLAB);
+            event.accept(ModBlocks.LIMESTONE_STAIRS);
             event.accept(ModBlocks.LIMESTONE_BRICKS);
+            event.accept(ModBlocks.LIMESTONE_BRICKS_SLAB);
+            event.accept(ModBlocks.LIMESTONE_BRICKS_STAIRS);
             event.accept(ModBlocks.CHISELED_LIMESTONE);
             event.accept(ModBlocks.MOSSY_LIMESTONE_BRICKS);
+            event.accept(ModBlocks.HAY_SLAB);
+            event.accept(ModBlocks.HAY_STAIRS);
+            event.accept(ModBlocks.OAK_WOOD_WALL);
+            event.accept(ModBlocks.SPRUCE_WOOD_WALL);
+            event.accept(ModBlocks.BIRCH_WOOD_WALL);
+            event.accept(ModBlocks.JUNGLE_WOOD_WALL);
+            event.accept(ModBlocks.ACACIA_WOOD_WALL);
+            event.accept(ModBlocks.DARK_OAK_WOOD_WALL);
+            event.accept(ModBlocks.MANGROVE_WOOD_WALL);
+            event.accept(ModBlocks.CLAY_TILES);
+            event.accept(ModBlocks.WHITE_CLAY_TILES);
+            event.accept(ModBlocks.ORANGE_CLAY_TILES);
+            event.accept(ModBlocks.MAGENTA_CLAY_TILES);
+            event.accept(ModBlocks.LIGHT_BLUE_CLAY_TILES);
+            event.accept(ModBlocks.YELLOW_CLAY_TILES);
+            event.accept(ModBlocks.LIME_CLAY_TILES);
+            event.accept(ModBlocks.PINK_CLAY_TILES);
+            event.accept(ModBlocks.GRAY_CLAY_TILES);
+            event.accept(ModBlocks.LIGHT_GRAY_CLAY_TILES);
+            event.accept(ModBlocks.CYAN_CLAY_TILES);
+            event.accept(ModBlocks.PURPLE_CLAY_TILES);
+            event.accept(ModBlocks.BLUE_CLAY_TILES);
+            event.accept(ModBlocks.BROWN_CLAY_TILES);
+            event.accept(ModBlocks.GREEN_CLAY_TILES);
+            event.accept(ModBlocks.RED_CLAY_TILES);
+            event.accept(ModBlocks.BLACK_CLAY_TILES);
             event.accept(ModItems.BARLEY_SEEDS);
             event.accept(ModItems.BARLEY);
             event.accept(ModItems.GRAPE_SEEDS);
@@ -148,6 +217,8 @@ public class AgrypyrosMod
             event.accept(ModItems.BRONZE_CHESTPLATE);
             event.accept(ModItems.BRONZE_LEGGINGS);
             event.accept(ModItems.BRONZE_BOOTS);
+            event.accept(ModItems.RAW_BOAR);
+            event.accept(ModItems.COOKED_BOAR);
             event.accept(ModItems.RAW_SILVER);
             event.accept(ModItems.SILVER_INGOT);
             event.accept(ModItems.RAW_TIN);

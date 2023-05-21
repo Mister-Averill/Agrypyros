@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "agrypyrosmod:block/hay_slab"
+    },
+    "type=double": {
+      "model": "agrypyrosmod:block/hay"
+    },
+    "type=top": {
+      "model": "agrypyrosmod:block/hay_slab_top"
+    }
+  }
+}

@@ -9,10 +9,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -72,6 +69,72 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICKS = registerBlock("mossy_limestone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> CLAY_TILES = registerBlock("clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_BROWN)));
+    public static final RegistryObject<Block> WHITE_CLAY_TILES = registerBlock("white_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.SNOW)));
+    public static final RegistryObject<Block> ORANGE_CLAY_TILES = registerBlock("orange_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE)));
+    public static final RegistryObject<Block> MAGENTA_CLAY_TILES = registerBlock("magenta_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_MAGENTA)));
+    public static final RegistryObject<Block> LIGHT_BLUE_CLAY_TILES = registerBlock("light_blue_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_LIGHT_BLUE)));
+    public static final RegistryObject<Block> YELLOW_CLAY_TILES = registerBlock("yellow_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_YELLOW)));
+    public static final RegistryObject<Block> LIME_CLAY_TILES = registerBlock("lime_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_LIGHT_GREEN)));
+    public static final RegistryObject<Block> PINK_CLAY_TILES = registerBlock("pink_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_PINK)));
+    public static final RegistryObject<Block> GRAY_CLAY_TILES = registerBlock("gray_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_GRAY)));
+    public static final RegistryObject<Block> LIGHT_GRAY_CLAY_TILES = registerBlock("light_gray_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_LIGHT_GRAY)));
+    public static final RegistryObject<Block> CYAN_CLAY_TILES = registerBlock("cyan_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_CYAN)));
+    public static final RegistryObject<Block> PURPLE_CLAY_TILES = registerBlock("purple_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_PURPLE)));
+    public static final RegistryObject<Block> BLUE_CLAY_TILES = registerBlock("blue_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_BLUE)));
+    public static final RegistryObject<Block> BROWN_CLAY_TILES = registerBlock("brown_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_BROWN)));
+    public static final RegistryObject<Block> GREEN_CLAY_TILES = registerBlock("green_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_GREEN)));
+    public static final RegistryObject<Block> RED_CLAY_TILES = registerBlock("red_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_RED)));
+    public static final RegistryObject<Block> BLACK_CLAY_TILES = registerBlock("black_clay_tiles",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.COLOR_BLACK)));
+    public static final RegistryObject<Block> OAK_WOOD_WALL = registerBlock("oak_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> SPRUCE_WOOD_WALL = registerBlock("spruce_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
+    public static final RegistryObject<Block> BIRCH_WOOD_WALL = registerBlock("birch_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_WOOD_WALL = registerBlock("jungle_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_WOOD_WALL = registerBlock("acacia_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_WOOD_WALL = registerBlock("dark_oak_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_WOOD_WALL = registerBlock("mangrove_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> LIMESTONE_STAIRS = registerBlock("limestone_stairs",
+            () -> new StairBlock(LIMESTONE.get().defaultBlockState(),BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_BRICKS_STAIRS = registerBlock("limestone_bricks_stairs",
+            () -> new StairBlock(LIMESTONE_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_SLAB = registerBlock("limestone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_BRICKS_SLAB = registerBlock("limestone_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SNOW)
+                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> HAY_STAIRS = registerBlock("hay_stairs",
+            () -> new StairBlock(Blocks.HAY_BLOCK.defaultBlockState(),BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_YELLOW)
+                    .strength(0.5F).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> HAY_SLAB = registerBlock("hay_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_YELLOW)
+                    .strength(0.5F).sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> BARLEY_CROP = BLOCKS.register("barley",
             () -> new BarleyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));

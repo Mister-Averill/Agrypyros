@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "agrypyrosmod:block/hay_block_side",
+    "side": "agrypyrosmod:block/hay_block_side",
+    "top": "agrypyrosmod:block/hay_block_side"
+  }
+}
