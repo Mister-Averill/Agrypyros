@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lime_clay_tiles",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_terracotta"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "agrypyrosmod:lime_clay_tiles"
+  }
+}

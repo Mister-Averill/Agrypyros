@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "agrypyrosmod:block/light_gray_clay_tiles"
+  }
+}

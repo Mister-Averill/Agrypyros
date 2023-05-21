@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "agrypyrosmod:block/red_clay_tiles"
+  }
+}
